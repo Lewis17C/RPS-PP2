@@ -1,5 +1,9 @@
+*{
+    font-family: Lato, sans-serif;
+}
+
 body {
-    background-color: rgb(235, 45, 70);
+    background-color: rgb(139, 6, 24);
     text-align: center;
 }
 
@@ -12,15 +16,15 @@ footer {
 .heading {
    text-align: center;
    color:bisque;
+   font-size: 40px;
+   padding-bottom: 40px;
 }
 
 .button {
-    font-size: 75px;
-    color: blueviolet;
-    margin: auto;
-    border-radius: 33%;
+    font-size: 55px;
+    color: rgb(227, 243, 9);
+    border-radius: 50%;
     background-color: black;
-    margin: auto;
     padding: 25px;
 
 }
@@ -34,9 +38,31 @@ footer {
     padding: 20px;
 }
 
-.result-area {
+.choice-area {
     font-size: 25px;
     color: bisque;
+    padding-bottom: 20px;
+}
+
+.button-area {
+    padding-bottom: 20px;
+}
+
+.result-area {
+    padding-top: 20px;
+}
+
+
+.rock-button {
+    margin: 10px;
+}
+
+.paper-button {
+    margin: 10px;
+}
+
+.scissors-button {
+    margin: 10px;
 }
 
 #result {
@@ -48,15 +74,21 @@ footer {
 #player-score {
     text-align: center;
     color: bisque;
-    font-size: 40px;
+    font-size: 30px;
     left: -20px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 #computer-score {
     text-align: center;
     color: bisque;
-    font-size: 40px;
-    right: -20px;
-    padding-top: 5px;
+    font-size: 30px;
+}
+
+#player-chooses {
+    font-size: 30px;
+}
+
+#computer-chooses {
+    font-size: 30px;
 }

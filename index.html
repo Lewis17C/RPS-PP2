@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link href="assets/css/style.css" rel="stylesheet">
-</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        </style>
 <body>
     <section class = "game-area">
     <h1 class = "heading">Rock Paper Scissors</h1>
-    <div class = "choice-area">
+    <div class = "button-area">
     <button class = "rock-button button">Rock</button>
     <button class = "paper-button button">Paper</button>
     <button class = "scissors-button button" >Scissors</button>           
     </div>
-    <div class = "result-area">
+    <div class = "choice-area">
         <p id = "player-chooses">You Choose: <span id = "players-choice"</p>
         <p id = "computer-chooses">Computer Chooses: <span id = "computers-choice"</p>
-        <p id="result">Winner: <span id="display-game-winner"</p>
+        <div class = "result-area">
+            <p id="result">Winner: <span id="display-game-winner"</p>
+            </div>
+            
     </div>
     <div class = "score-area">
         <p class = "scores" id = "player-score">Your Score: <span id = "wins"></span>0</p>
@@ -26,6 +31,7 @@
 </section>
 <footer>
     <h2>Rules</h2>
+    <p>Rock beats Scissors, Scissors beats Paper, Paper beats Rock</p>
 </footer>
 
     <script src="assets/js/script.js"></script>
